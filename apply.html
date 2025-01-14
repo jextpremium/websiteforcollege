@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apply | Business Solutions</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <h1>Business Solutions</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="jobs.html">Job List</a></li>
+                <li><a href="apply.html" class="active">Apply</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="apply-section">
+            <h1>Application Form</h1>
+            <div class="apply-form-container">
+            <form class="application-form">
+                <div class="form-group">
+                    <label for="position">Position Applied For</label>
+                    <select id="position" name="position" required>
+                        <option value="">Select a position</option>
+                        <option value="software-engineer">Senior Software Engineer</option>
+                        <option value="sales-manager">Sales Manager</option>
+                        <option value="marketing-specialist">Marketing Specialist</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="resume">Resume/CV</label>
+                    <input type="file" id="resume" name="resume" accept=".pdf,.doc,.docx" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="cover-letter">Cover Letter</label>
+                    <textarea id="cover-letter" name="cover-letter" rows="5"></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="experience">Years of Experience</label>
+                    <input type="number" id="experience" name="experience" min="0" required>
+                </div>
+
+                <button type="submit" class="submit-button">Submit Application</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>Email: info@business.com</p>
+                <p>Phone: (555) 123-4567</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="jobs.html">Careers</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#">LinkedIn</a>
+                    <a href="#">Twitter</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Business Solutions. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -14,7 +14,7 @@ body {
 /* Header and Navigation */
 header {
     background: #fff;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 2px 5px rgba(237, 1, 127, 0.1);
     position: fixed;
     width: 100%;
     top: 0;
@@ -32,7 +32,7 @@ nav {
 
 .logo h1 {
     font-size: 1.5rem;
-    color: #2c3e50;
+    color: #ed017f;
 }
 
 .nav-links {
@@ -43,23 +43,23 @@ nav {
 
 .nav-links a {
     text-decoration: none;
-    color: #2c3e50;
+    color: #ed017f;
     font-weight: 500;
     transition: color 0.3s;
 }
 
 .nav-links a:hover {
-    color: #3498db;
+    color: #ed017f;
 }
 
 .nav-links a.active {
-    color: #3498db;
+    color: #ed017f;
 }
 
 /* Hero Section */
 .hero {
     height: 80vh;
-    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)),
+    background: linear-gradient(rgba(1, 182, 237, 0.8), rgba(237, 1, 127, 0.8)),
                 url('https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1500&q=80');
     background-size: cover;
     background-position: center;
@@ -90,7 +90,7 @@ nav {
 .cta-button {
     display: inline-block;
     padding: 1rem 2rem;
-    background: #3498db;
+    background: #ed017f;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -98,7 +98,7 @@ nav {
 }
 
 .cta-button:hover {
-    background: #2980b9;
+    background: #ed017f;
 }
 
 /* Features Section */
@@ -112,6 +112,7 @@ nav {
     text-align: center;
     margin-bottom: 3rem;
     font-size: 2rem;
+    color: #ed017f;
 }
 
 .feature-grid {
@@ -126,10 +127,12 @@ nav {
     border-radius: 10px;
     text-align: center;
     transition: transform 0.3s;
+    border: 1px solid #ed017f;
 }
 
 .feature-card:hover {
     transform: translateY(-5px);
+    box-shadow: 0 4px 6px rgba(237, 1, 127, 0.2);
 }
 
 /* Jobs Page - Modern Windows 11 Style */
@@ -145,7 +148,7 @@ nav {
     backdrop-filter: blur(10px);
     padding: 1.5rem;
     border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 6px rgba(237, 1, 127, 0.05);
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
@@ -160,7 +163,7 @@ nav {
 .search-input {
     width: 100%;
     padding: 0.75rem 1rem;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #ed017f;
     border-radius: 8px;
     font-size: 1rem;
     transition: all 0.3s ease;
@@ -169,8 +172,8 @@ nav {
 
 .search-input:focus {
     outline: none;
-    border-color: #3498db;
-    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+    border-color: #ed017f;
+    box-shadow: 0 0 0 2px rgba(237, 1, 127, 0.2);
 }
 
 .filter-group {
@@ -181,7 +184,7 @@ nav {
 
 .filter-select {
     padding: 0.75rem 2rem 0.75rem 1rem;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #ed017f;
     border-radius: 8px;
     font-size: 1rem;
     background: white;
@@ -197,20 +200,20 @@ nav {
 .job-card {
     background: white;
     border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 6px rgba(237, 1, 127, 0.05);
     transition: all 0.3s ease;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #ed017f;
     overflow: hidden;
 }
 
 .job-card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 8px 12px rgba(237, 1, 127, 0.1);
 }
 
 .job-card-header {
     padding: 1.5rem;
-    border-bottom: 1px solid #f0f0f0;
+    border-bottom: 1px solid #ed017f;
 }
 
 .job-title-group {
@@ -222,7 +225,7 @@ nav {
 
 .job-title-group h3 {
     font-size: 1.25rem;
-    color: #2c3e50;
+    color: #ed017f;
     margin: 0;
 }
 
@@ -234,24 +237,24 @@ nav {
 }
 
 .job-badge.remote {
-    background: #e8f5e9;
-    color: #2e7d32;
+    background: rgba(237, 1, 127, 0.1);
+    color: #ed017f;
 }
 
 .job-badge.onsite {
-    background: #e3f2fd;
-    color: #1565c0;
+    background: rgba(237, 1, 127, 0.1);
+    color: #ed017f;
 }
 
 .job-badge.hybrid {
-    background: #fff3e0;
-    color: #f57c00;
+    background: rgba(237, 1, 127, 0.1);
+    color: #ed017f;
 }
 
 .job-meta {
     display: flex;
     gap: 1rem;
-    color: #666;
+    color: #ed017f;
     font-size: 0.875rem;
 }
 
@@ -260,7 +263,7 @@ nav {
 }
 
 .job-description {
-    color: #666;
+    color: #ed017f;
     margin-bottom: 1rem;
     line-height: 1.6;
 }
@@ -275,19 +278,19 @@ nav {
     position: relative;
     padding-left: 1.5rem;
     margin-bottom: 0.5rem;
-    color: #555;
+    color: #ed017f;
 }
 
 .job-highlights li::before {
     content: "•";
     position: absolute;
     left: 0;
-    color: #3498db;
+    color: #ed017f;
 }
 
 .job-card-footer {
     padding: 1.5rem;
-    border-top: 1px solid #f0f0f0;
+    border-top: 1px solid #ed017f;
     display: flex;
     gap: 1rem;
     align-items: center;
@@ -295,7 +298,7 @@ nav {
 
 .apply-button {
     padding: 0.75rem 1.5rem;
-    background: #3498db;
+    background: #ed017f;
     color: white;
     border: none;
     border-radius: 8px;
@@ -305,14 +308,14 @@ nav {
 }
 
 .apply-button:hover {
-    background: #2980b9;
+    background: rgba(237, 1, 127, 0.9);
 }
 
 .save-job {
     padding: 0.75rem 1.5rem;
     background: transparent;
-    border: 1px solid #3498db;
-    color: #3498db;
+    border: 1px solid #ed017f;
+    color: #ed017f;
     border-radius: 8px;
     font-weight: 500;
     cursor: pointer;
@@ -320,12 +323,12 @@ nav {
 }
 
 .save-job:hover {
-    background: rgba(52, 152, 219, 0.1);
+    background: rgba(237, 1, 127, 0.1);
 }
 
 /* Footer */
 footer {
-    background: #2c3e50;
+    background: #ed017f;
     color: #fff;
     padding: 3rem 5% 1rem;
 }
@@ -353,14 +356,14 @@ footer {
 }
 
 .footer-section a:hover {
-    color: #3498db;
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .footer-bottom {
     text-align: center;
     margin-top: 2rem;
     padding-top: 2rem;
-    border-top: 1px solid rgba(255,255,255,0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* Page-specific hero sections */
@@ -368,7 +371,7 @@ footer {
 .contact-hero,
 .jobs-hero {
     height: 40vh;
-    background: linear-gradient(rgba(44, 62, 80, 0.8), rgba(44, 62, 80, 0.8)),
+    background: linear-gradient(rgba(1, 182, 237, 0.8), rgba(237, 1, 127, 0.8)),
                 url('https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1500&q=80');
     background-size: cover;
     background-position: center;
@@ -381,7 +384,7 @@ footer {
     padding-top: 60px;
     border-radius: 12px;
     margin: 1rem;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 6px rgba(237, 1, 127, 0.1);
 }
 
 /* Contact Section Styles */
@@ -399,14 +402,14 @@ footer {
     backdrop-filter: blur(10px);
     padding: 2rem;
     border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 6px rgba(237, 1, 127, 0.05);
 }
 
 .contact-info, .contact-form {
     background: white;
     padding: 1.5rem;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 4px rgba(237, 1, 127, 0.05);
 }
 
 .office, .contact-details {
@@ -414,12 +417,12 @@ footer {
 }
 
 .office h3, .contact-details h3 {
-    color: #2c3e50;
+    color: #ed017f;
     margin-bottom: 0.5rem;
 }
 
 .contact-form h2 {
-    color: #2c3e50;
+    color: #ed017f;
     margin-bottom: 1rem;
 }
 
@@ -430,7 +433,7 @@ footer {
 .form-group label {
     display: block;
     margin-bottom: 0.5rem;
-    color: #2c3e50;
+    color: #ed017f;
     font-weight: 500;
 }
 
@@ -438,7 +441,7 @@ footer {
 .form-group textarea {
     width: 100%;
     padding: 0.75rem;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #ed017f;
     border-radius: 8px;
     font-size: 1rem;
     transition: all 0.3s ease;
@@ -448,14 +451,14 @@ footer {
 .form-group input:focus,
 .form-group textarea:focus {
     outline: none;
-    border-color: #3498db;
-    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+    border-color: #ed017f;
+    box-shadow: 0 0 0 2px rgba(237, 1, 127, 0.2);
 }
 
 .submit-button {
     width: 100%;
     padding: 0.75rem;
-    background: #3498db;
+    background: #ed017f;
     color: white;
     border: none;
     border-radius: 8px;
@@ -465,7 +468,7 @@ footer {
 }
 
 .submit-button:hover {
-    background: #2980b9;
+    background: rgba(237, 1, 127, 0.9);
 }
 
 /* Additional spacing for main content to account for fixed header */
@@ -485,7 +488,7 @@ main {
     backdrop-filter: blur(10px);
     padding: 2rem;
     border-radius: 12px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 4px 6px rgba(237, 1, 127, 0.05);
 }
 
 .application-form {
@@ -497,7 +500,7 @@ main {
 .application-form select {
     width: 100%;
     padding: 0.75rem;
-    border: 1px solid #e0e0e0;
+    border: 1px solid #ed017f;
     border-radius: 8px;
     font-size: 1rem;
     background: white;
@@ -506,8 +509,8 @@ main {
 
 .application-form select:focus {
     outline: none;
-    border-color: #3498db;
-    box-shadow: 0 0 0 2px rgba(52, 152, 219, 0.2);
+    border-color: #ed017f;
+    box-shadow: 0 0 0 2px rgba(237, 1, 127, 0.2);
 }
 
 /* About Page Styles */
@@ -527,7 +530,8 @@ main {
     background: white;
     padding: 1.5rem;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 4px rgba(237, 1, 127, 0.05);
+    border: 1px solid #ed017f;
 }
 
 .team {
@@ -546,8 +550,9 @@ main {
     background: white;
     padding: 1.5rem;
     border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 4px rgba(237, 1, 127, 0.05);
     text-align: center;
+    border: 1px solid #ed017f;
 }
 
 /* Responsive Design */
@@ -565,7 +570,7 @@ main {
         display: block;
         width: 25px;
         height: 3px;
-        background: #2c3e50;
+        background: #ed017f;
         margin: 5px 0;
     }
 
